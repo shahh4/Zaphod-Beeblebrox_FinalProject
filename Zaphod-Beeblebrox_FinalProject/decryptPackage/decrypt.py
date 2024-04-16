@@ -18,7 +18,7 @@ def decrypt_location(encrypted_data_path, english_text_path):
         for index in indices:
             try:
                 # Convert index to integer and subtract 1 (to adjust for 0-based indexing)
-                index = int(index) - 1
+                index = int(index)  #- 1
                 # Append the word from English text file corresponding to the index
                 decrypted_location += english_text[index].strip() + " "
             except ValueError:
