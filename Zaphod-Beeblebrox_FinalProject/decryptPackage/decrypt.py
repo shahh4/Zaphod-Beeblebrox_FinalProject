@@ -1,3 +1,12 @@
+# main.py
+# Name: Zaphod Beeblebrox (Harsh Shah, Ian Cunningham, and Elizabeth Stapleton)
+# email: shahh4@mail.uc.edu, stapleet@mail.uc.edu, cunninig@mail.uc.edu
+# Assignment Number: Final Project
+# Due Date: 04/23/2024
+# Course/Section: IS4010-002
+# Semester/Year: Spring 2024
+# Brief Description of the assignment: This decrypts a file
+# Anything else that's relevant: Used worked done in class and ChatGPT as a reference. 
 import json
 
 def decrypt_location(encrypted_data_path, english_text_path):
