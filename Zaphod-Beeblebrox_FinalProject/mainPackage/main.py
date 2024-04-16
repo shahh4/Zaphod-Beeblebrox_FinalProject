@@ -19,7 +19,7 @@ def decrypt_message(encrypted_message, key):
 encrypted_message = b"gAAAAABlTNM6SYMj08VEVzQj-dHanJNF3F9TMViW7Tv1EBvvX9R5w7U4ThTMMz1qEaaUQt_hLAc3SHuZe4K197Nfq1aZjrHdig=="
 
 # Your key (replace 'your_key_here' with the actual key)
-key = b'your_key_here'
+key = b'r0J5NgEGqsxufa0af1zLpy8DaNhQ9C9ur6PBWqialy4='
 
 # Decrypt the message
 decrypted_message = decrypt_message(encrypted_message, key)
