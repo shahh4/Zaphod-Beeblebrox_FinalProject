@@ -7,6 +7,7 @@
 # Semester/Year: Spring 2024
 # Brief Description of the assignment: This shows a very very good picture of us
 # Anything else that's relevant: Used worked done in class and ChatGPT as a reference. 
+
 from PIL import Image, ImageFilter, ImageDraw, ImageFont
 import os, sys
 import requests
