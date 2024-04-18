@@ -11,6 +11,12 @@
 from cryptography.fernet import Fernet
 
 def decrypt_message(encrypted_message, key):
+    '''
+        Load an image file from disk
+        @Args: encrypted_message (bytes): The encrypted message to be decrypted.
+        key (bytes): The encryption key used for decryption.
+        @return: none
+    '''
     f = Fernet(key)
     decrypted_message = f.decrypt(encrypted_message)
     print("Decrypted message:", decrypted_message.decode())
