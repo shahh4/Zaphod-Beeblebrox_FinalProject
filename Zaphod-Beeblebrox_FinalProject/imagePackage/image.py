@@ -23,8 +23,6 @@ def load_image( filename ) :
     try:
         myimage = Image.open(filename)
     except:
-        #If I get here, an exception has occurred
-        # 'Eat' the exception
-        return None # give up and return nothing
+        return None 
     myimage.load()
     return myimage
